@@ -1,0 +1,22 @@
+.heading{
+    color:darkgreen;
+    font-weight:700;
+    padding-left: 50px;
+}
+
+.nav-text{
+    font-weight:bold;
+}
+
+.loging{
+    text-align: center;
+    font-size:larger;
+    font-weight: bolder;
+}
+
+.class-1{
+    margin-left: 250px;
+}
+.class-2{
+    margin-left: 50px;
+}

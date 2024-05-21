@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css"rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="g logo.gif" height="40px"width="50%"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active nav-text" aria-current="page" href="#">MEN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active nav-text" href="#">KIDS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active nav-text" aria-current="page" href="#">WOMEN</a>
+              </li>
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle text-warning nav-text" href="#" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  BIG SALE
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                  <li><a class="dropdown-item" href="#">70% off deals</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">50% off deals</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">30% off deals</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active nav-text" aria-current="page" href="#">SUMMER COLLECTION</a>
+              </li>
+              
+              
+            <form class="d-flex">
+              <input class="form-control me-2 class-1" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success bg-dark class-2" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <section>
+        <img src="cover pic.jpg"alt="cover"width="100%">
+      </section>
+
+      <h5 class="heading">Size chart - In (Expected Deviation < 3%)</h5>
+
+      <section class="ms-5 me-5">
+        <table class="table bg-secondary text-light table-hover">
+            <thead>
+              <tr>
+                <th scope="col">size</th>
+                <th scope="col">chest</th>
+                <th scope="col">length</th>
+                <th scope="col">sleeve</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">M</th>
+                <td>39</td>
+                <td>27.5</td>
+                <td>22.09</td>
+              </tr>
+              <tr>
+                <th scope="row">L</th>
+                <td>40.5</td>
+                <td>25</td>
+                <td>27</td>
+              </tr>
+              <tr>
+                <th scope="row">XL</th>
+                <td >43</td>
+                <td>26.5</td>
+                <td>29</td>
+              
+              </tr>
+              <tr>
+                <th scope="row">2XL</th>
+                <td>45</td>
+                <td>28.5</td>
+                <td>30</td>
+          
+              </tr>
+              <tr>
+                <th scope="row">3XL</th>
+                <td >47</td>
+                <td>29.5</td>
+                <td>30.5</td>
+                
+              </tr>
+            </tbody>
+          </table>
+      </section>
+      
+      <h4 class="loging">LOGING</h4>
+      <section>
+        <div>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-warning">Submit</button>
+              </form>
+        </div>
+      </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
